@@ -1,0 +1,10 @@
+{% extends "common/layout.html" %}
+{% block content %}
+<h2>首页用户信息展示</h2>
+<table class="table">
+    ...
+</table>
+    {% for item in result %}
+    {{ item['User'] }}
+    {% endfor %}
+{% endblock %}
